@@ -1,0 +1,9 @@
+#!name=wps
+#!desc= wps office
+
+
+[Script]
+# 微博
+http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+[MITM]
+hostname = account.wps.cn
