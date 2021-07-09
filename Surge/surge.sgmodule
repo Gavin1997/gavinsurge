@@ -3,7 +3,7 @@
 
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) JP 307
+(?<=_region=)CN(?=&) KR 307
 (?<=&mcc_mnc=)4 2 307
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
@@ -23,4 +23,4 @@ http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=
 # 京东历史价格
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,max-size=-1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 [MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,ios.prod.ftl.netflix.com,account.wps.cn,api.m.jd.com
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ios.prod.ftl.netflix.com, account.wps.cn, api.m.jd.com
