@@ -24,4 +24,4 @@ http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=
 # 京东历史价格
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price_lite.js
 [MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,ios.prod.ftl.netflix.com,account.wps.cn
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,ios.prod.ftl.netflix.com,account.wps.cn,api.m.jd.com
