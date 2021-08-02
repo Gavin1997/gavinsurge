@@ -4,5 +4,8 @@
 [URL Rewrite]
 # k生活
 ^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
-# 京东金融
+# 京东金融 img*.360buyimg.com
 ^https?:\/\/img\d+\.360buyimg\.com - reject
+
+[MITM]
+hostname = %APPEND% img*.360buyimg.com
