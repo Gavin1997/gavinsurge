@@ -1,0 +1,6 @@
+#!name=Ad rewrite rules, By Gavin
+#!desc=使用过程中一些广告 重写
+
+[URL Rewrite]
+# k生活
+^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
