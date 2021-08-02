@@ -2,10 +2,10 @@
 #!desc=使用过程中一些广告 重写
 
 [URL Rewrite]
-# k生活
+# k生活 web.k.gigahome.cn
 ^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
 # 京东金融 img*.360buyimg.com
 ^https?:\/\/img\d+\.360buyimg\.com - reject
 
 [MITM]
-hostname = %APPEND% img*.360buyimg.com
+hostname = %APPEND% img*.360buyimg.com,web.k.gigahome.cn
