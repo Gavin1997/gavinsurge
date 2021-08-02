@@ -4,3 +4,5 @@
 [URL Rewrite]
 # k生活
 ^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
+# 京东金融
+^https?:\/\/img\d+\.360buyimg\.com - reject
