@@ -8,4 +8,3 @@
 ^https?:\/\/img\d+\.360buyimg\.com - reject
 
 [MITM]
-hostname = %APPEND% img*.360buyimg.com
