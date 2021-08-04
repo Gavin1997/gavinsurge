@@ -1,0 +1,10 @@
+#!name=Mac Ad rewrite rules, By Gavin
+#!desc=使用过程中一些广告 重写 for mac
+
+[URL Rewrite]
+# k生活 web.k.gigahome.cn
+^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
+# > douban - api.douban.com
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
+[MITM]
+hostname = %APPEND% api.douban.com

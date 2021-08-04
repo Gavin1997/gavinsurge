@@ -1,12 +1,10 @@
 #!name=Ad rewrite rules, By Gavin
-#!desc=使用过程中一些广告 重写
+#!desc=使用过程中一些广告 重写 for ios
 
 [URL Rewrite]
 # k生活 web.k.gigahome.cn
 ^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
 # 京东金融 img*.360buyimg.com
 ^https?:\/\/img\d+\.360buyimg\.com\/mcmktresadmin\/jfs\/ - reject
-# > douban - api.douban.com
-^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 [MITM]
-hostname = %APPEND% img*.360buyimg.com,api.douban.com
+hostname = %APPEND% img*.360buyimg.com
