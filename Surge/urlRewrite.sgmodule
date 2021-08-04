@@ -9,4 +9,4 @@
 # > douban - api.douban.com
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 [MITM]
-# hostname = %APPEND% img*.360buyimg.com,api.douban.com
+hostname = %APPEND% img*.360buyimg.com,api.douban.com
