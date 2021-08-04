@@ -6,5 +6,7 @@
 ^http?:\/\/web\.k\.gigahome\.cn\/api\/klife\/mall\/splash - reject
 # 京东金融 img*.360buyimg.com
 ^https?:\/\/img\d+\.360buyimg\.com\/mcmktresadmin\/jfs\/ - reject
+# > douban - api.douban.com
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 [MITM]
-# hostname = %APPEND% img*.360buyimg.com
+# hostname = %APPEND% img*.360buyimg.com,api.douban.com
