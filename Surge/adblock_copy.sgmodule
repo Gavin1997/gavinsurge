@@ -8,5 +8,8 @@
 ^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/ - reject
 # > douban - api.douban.com
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
+# J
+# >JD - img*.360buyimg.com
+^https?:\/\/img\d+\.360buyimg\.com\/mcmktresadmin\/jfs\/ - reject
 [MITM]
-hostname = %APPEND% app.poizon.com,api.douban.com
+hostname = %APPEND% app.poizon.com,api.douban.com,img*.360buyimg.com
