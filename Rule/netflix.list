@@ -40,6 +40,6 @@ IP-CIDR,66.197.128.0/17,no-resolve
 IP-CIDR,69.53.224.0/19,no-resolve
 IP-CIDR,8.41.4.0/24,no-resolve
 IP-CIDR,203.185.52.0/5,no-resolve
-IP-CIDR,14.136.135.196/0,no-resolve
-IP-CIDR,14.136.139.164/0,no-resolve
+IP-CIDR,14.136.135.196/195,no-resolve
+IP-CIDR,14.136.139.164/163,no-resolve
 USER-AGENT,Argo*
