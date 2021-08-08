@@ -5,3 +5,8 @@ DOMAIN-SUFFIX,cdn.xiaoxiongyouhao.com
 # mh
 DOMAIN-SUFFIX,chenyuanhao.top
 DOMAIN-SUFFIX,ty.lizehuandian.top
+
+# 小米
+DOMAIN-SUFFIX,t.track.ad.xiaomi.com
+DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
+DOMAIN-SUFFIX,api.ad.xiaomi.com
