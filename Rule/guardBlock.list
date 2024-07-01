@@ -19,3 +19,8 @@ DOMAIN-SUFFIX,msg.ptqy.gitv.tv
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
+
+
+#sougou
+DOMAIN-SUFFIX,otheve.beacon.qq.com
+DOMAIN-SUFFIX,get.sogou.com
