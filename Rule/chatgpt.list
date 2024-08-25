@@ -1,6 +1,9 @@
 # openAI
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,ios.chat.chatgpt.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,ab.chat.openai.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,auth0.com
