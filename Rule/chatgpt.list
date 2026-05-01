@@ -14,3 +14,6 @@ DOMAIN-SUFFIX,stripe.com
 # register
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
+# applepsuh
+DOMAIN-SUFFIX,push.apple.com
