@@ -17,3 +17,4 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 
 # applepsuh
 DOMAIN-SUFFIX,push.apple.com
+IP-CIDR,17.0.0.0/8,no-resolve
